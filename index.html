@@ -12,7 +12,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-light">
+        <nav class="navbar navbar-expand-lg fixed-top bg-light">
             <div class="container">
                 <a class="navbar-brand" href="#"><img src="./images/logo.png" alt=""></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -26,13 +26,13 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Shoes</a>
+                            <a class="nav-link" href="#shoes">Shoes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Backpack</a>
+                            <a class="nav-link" href="#backpack">Backpack</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Subscribe</a>
+                            <a class="nav-link" href="#subscribe">Subscribe</a>
                         </li>
                     </ul>
                 </div>
@@ -114,6 +114,7 @@
             </div>
         </section>
 
+    </header>
 
         <!-- Slider end -->
 
@@ -149,7 +150,7 @@
 
         <!-- Shoes section start -->
         <main>
-            <section class="container my-4">
+            <section class="container my-4" id="shoes">
                 <h1>Shoes</h1>
                 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                     <div class="col">
@@ -198,7 +199,7 @@
 
         <!-- Backpack section start -->
         <main>
-            <section class="container my-4">
+            <section class="container my-4" id="backpack">
                 <h1>Backpack</h1>
                 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                     <div class="col">
@@ -244,8 +245,28 @@
             </section>
         </main>
         <!-- Backpack section end -->
-    </header>
+    
+        <!-- Lets stay in touch start (subscribe) -->
 
+        <section style="height:300px;" class="container d-flex justify-content-center rounded-3 align-items-center bg-info" id="subscribe">
+            <div>
+                <h2>Lets stay in touch</h2>
+            <p>Get updates on sales specials and more</p>
+            <form>
+                <div class="mb-3">
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <button type="submit" class="btn btn-warning">Submit</button>
+              </form>
+            </div>
+        </section>
+        <!-- Lets stay in touch end(subscribe) -->
+        
+        <footer class="text-center my-1">
+            <p>Copyright © 2022 Ashikur Rahman Asif - All Rights Reserved</p>
+        </footer>
+
+        
 
 
 
